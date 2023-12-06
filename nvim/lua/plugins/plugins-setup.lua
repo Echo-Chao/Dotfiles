@@ -63,7 +63,7 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.1',  -- 文件检索
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-   use {
+  use {
         'lervag/vimtex',
         opt = true,
         config = function ()
@@ -82,6 +82,8 @@ return require('packer').startup(function(use)
         ft = 'tex'
     }
       -- use 'foo2/bar2.nvim'
+--  use "simrat39/rust-tools.nvim"
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
