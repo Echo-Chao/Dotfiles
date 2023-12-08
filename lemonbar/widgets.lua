@@ -42,7 +42,7 @@ widgets.workspace = {
     rclick = "xdotool set_desktop_for_window $(xdotool getwindowfocus) $(lua ./switch-workspace.lua)$"
   },
   command = "lua ./workspace.lua",
-  len = num ,--+ (num + 1) * 1,
+  len = num + 1,--+ (num + 1) * 1,
   interval = 0.1,
   inner_gap = 1,
 }
