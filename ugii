@@ -1,0 +1,3 @@
+#!/bin/bash
+nohup /opt/SolidSQUAD_License_Servers/Bin/lmgrd &
+nohup /usr/ugs1200/ugii/ugii &
